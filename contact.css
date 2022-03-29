@@ -1,0 +1,12 @@
+.section_contact{
+    background: rgb(30,139,195);
+    background: linear-gradient(90deg, rgba(30,139,195,0) 0%, rgba(30,139,195,0) 31%, rgba(30,139,195,1) 31%, rgba(30,139,195,1) 96%);
+}
+@media screen and (max-width: 992px ) { 
+    .section_contact{
+        background: none;
+    }
+    .contact{
+        background: rgb(30,139,195);
+    }
+}

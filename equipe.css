@@ -1,0 +1,39 @@
+.photo img {
+    width: 200px;
+    height: 200px;
+}
+.photo img:hover{
+    filter: sepia();
+}
+.navbar{
+    background-color: #36505F;
+}
+.linkedin{
+    color: black;
+}
+.logo_link{
+    opacity: 0;
+    block-size: 2em;
+}
+a:hover .logo_link{
+    opacity: 100;
+}
+.nav-title{
+    color: white;
+}
+@media screen and (max-width:768px){
+
+    .logo{
+        display: none;
+    }
+  
+    a:hover .logo_link{
+        opacity: 0;
+    }
+    .nav-title:hover{
+        color: #FF9F00;
+    }
+    .svg_equipe{
+        display: none;
+    }
+}

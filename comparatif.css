@@ -1,0 +1,13 @@
+.row{
+    border-radius: 30px;
+}
+.colone{
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.logo-perso{
+    width: 50%;
+}
+.images{
+    filter: invert();
+}

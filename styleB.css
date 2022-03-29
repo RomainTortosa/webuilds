@@ -1,0 +1,59 @@
+/* CSS accueil début */
+
+.bg-blue{
+    background-color: #0e5ccd;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px #000 ;
+
+}
+.bg-blue, .gneh{
+    margin: 50px;
+}
+
+.titi{
+    border-radius: 20px;
+}
+.gneh{
+    color: #fff;
+}
+.hi{
+    margin: 30px;
+}
+
+.toto{
+    height: 100px;
+    padding: 5px;
+    filter:invert();
+}
+
+.col-3{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.tata{
+    text-align: right;
+}
+.hoho{
+    color:#fff;
+}
+.hoho:hover{
+    color:#fff;
+}
+
+@media screen and (max-width: 768px) {
+    .gneh{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .col-3{
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+/* CSS accueil fin */
